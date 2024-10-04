@@ -7,7 +7,8 @@ touch submission_reminder_app/config/config.env
 touch submission_reminder_app/assets/submissions.txt
 touch submission_reminder_app/startup.sh
 
-echo "days remaining=2"> submission_reminder_app/config/config.env
+ASSIGNMENT="Shell Navigation"
+echo "DAYS_REMAINING=2" > submission_reminder_app/config/config.env
 
 #!/bin/bash
 source submission_reminder_app/config/config.env
